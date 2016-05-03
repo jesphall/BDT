@@ -1,0 +1,320 @@
+if (input=="id/I:name/C:xsec/F:kfac/F:eff/F:relunc/F") process =  
+if (input=="#") process = cross-sections 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = ttbar 
+if (input=="") process =  
+if (input=="410000") process = PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad 
+if (input=="#110351") process = PowhegPythia_P2012_ttbar_allhad 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = single 
+if (input=="") process =  
+if (input=="410011") process = PowhegPythiaEvtGen_P2012_singletop_tchan_lept_top 
+if (input=="410012") process = PowhegPythiaEvtGen_P2012_singletop_tchan_lept_antitop 
+if (input=="") process =  
+if (input=="410013") process = PowhegPythiaEvtGen_P2012_Wt_inclusive_top 
+if (input=="410014") process = PowhegPythiaEvtGen_P2012_Wt_inclusive_antitop 
+if (input=="410015") process = PowhegPythiaEvtGen_P2012_Wt_dilepton_top 
+if (input=="410016") process = PowhegPythiaEvtGen_P2012_Wt_dilepton_antitop 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = Powheg 
+if (input=="") process =  
+if (input=="361100") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusenu 
+if (input=="361101") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplusmunu 
+if (input=="361102") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wplustaunu 
+if (input=="361103") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusenu 
+if (input=="361104") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminusmunu 
+if (input=="361105") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Wminustaunu 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = Powheg 
+if (input=="") process =  
+if (input=="361106") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zee 
+if (input=="361107") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu 
+if (input=="361108") process = PowhegPythia8EvtGen_AZNLOCTEQ6L1_Ztautau 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = Sherpa 
+if (input=="#") process = NLO 
+if (input=="#") process = Filter 
+if (input=="") process =  
+if (input=="361300") process = Sherpa_CT10_Wenu_Pt0_70_CVetoBVeto 
+if (input=="361301") process = Sherpa_CT10_Wenu_Pt0_70_CFilterBVeto 
+if (input=="361302") process = Sherpa_CT10_Wenu_Pt0_70_BFilter 
+if (input=="361303") process = Sherpa_CT10_Wenu_Pt70_140_CVetoBVeto 
+if (input=="361304") process = Sherpa_CT10_Wenu_Pt70_140_CFilterBVeto 
+if (input=="#") process = FIXME 
+if (input=="361305") process = Sherpa_CT10_Wenu_Pt70_140_BFilter 
+if (input=="361306") process = Sherpa_CT10_Wenu_Pt140_280_CVetoBVeto 
+if (input=="361307") process = Sherpa_CT10_Wenu_Pt140_280_CFilterBVeto 
+if (input=="361308") process = Sherpa_CT10_Wenu_Pt140_280_BFilter 
+if (input=="361309") process = Sherpa_CT10_Wenu_Pt280_500_CVetoBVeto 
+if (input=="361310") process = Sherpa_CT10_Wenu_Pt280_500_CFilterBVeto 
+if (input=="361311") process = Sherpa_CT10_Wenu_Pt280_500_BFilter 
+if (input=="361312") process = Sherpa_CT10_Wenu_Pt500_700_CVetoBVeto 
+if (input=="361313") process = Sherpa_CT10_Wenu_Pt500_700_CFilterBVeto 
+if (input=="361314") process = Sherpa_CT10_Wenu_Pt500_700_BFilter 
+if (input=="361315") process = Sherpa_CT10_Wenu_Pt700_1000_CVetoBVeto 
+if (input=="361316") process = Sherpa_CT10_Wenu_Pt700_1000_CFilterBVeto 
+if (input=="361317") process = Sherpa_CT10_Wenu_Pt700_1000_BFilter 
+if (input=="361318") process = Sherpa_CT10_Wenu_Pt1000_2000_CVetoBVeto 
+if (input=="361319") process = Sherpa_CT10_Wenu_Pt1000_2000_CFilterBVeto 
+if (input=="361320") process = Sherpa_CT10_Wenu_Pt1000_2000_BFilter 
+if (input=="361321") process = Sherpa_CT10_Wenu_Pt2000_E_CMS_CVetoBVeto 
+if (input=="361322") process = Sherpa_CT10_Wenu_Pt2000_E_CMS_CFilterBVeto 
+if (input=="361323") process = Sherpa_CT10_Wenu_Pt2000_E_CMS_BFilter 
+if (input=="") process =  
+if (input=="361324") process = Sherpa_CT10_Wmunu_Pt0_70_CVetoBVeto 
+if (input=="361325") process = Sherpa_CT10_Wmunu_Pt0_70_CFilterBVeto 
+if (input=="361326") process = Sherpa_CT10_Wmunu_Pt0_70_BFilter 
+if (input=="361327") process = Sherpa_CT10_Wmunu_Pt70_140_CVetoBVeto 
+if (input=="361328") process = Sherpa_CT10_Wmunu_Pt70_140_CFilterBVeto 
+if (input=="361329") process = Sherpa_CT10_Wmunu_Pt70_140_BFilter 
+if (input=="361330") process = Sherpa_CT10_Wmunu_Pt140_280_CVetoBVeto 
+if (input=="361331") process = Sherpa_CT10_Wmunu_Pt140_280_CFilterBVeto 
+if (input=="361332") process = Sherpa_CT10_Wmunu_Pt140_280_BFilter 
+if (input=="361333") process = Sherpa_CT10_Wmunu_Pt280_500_CVetoBVeto 
+if (input=="361334") process = Sherpa_CT10_Wmunu_Pt280_500_CFilterBVeto 
+if (input=="361335") process = Sherpa_CT10_Wmunu_Pt280_500_BFilter 
+if (input=="361336") process = Sherpa_CT10_Wmunu_Pt500_700_CVetoBVeto 
+if (input=="361337") process = Sherpa_CT10_Wmunu_Pt500_700_CFilterBVeto 
+if (input=="361338") process = Sherpa_CT10_Wmunu_Pt500_700_BFilter 
+if (input=="361339") process = Sherpa_CT10_Wmunu_Pt700_1000_CVetoBVeto 
+if (input=="361340") process = Sherpa_CT10_Wmunu_Pt700_1000_CFilterBVeto 
+if (input=="361341") process = Sherpa_CT10_Wmunu_Pt700_1000_BFilter 
+if (input=="361342") process = Sherpa_CT10_Wmunu_Pt1000_2000_CVetoBVeto 
+if (input=="361343") process = Sherpa_CT10_Wmunu_Pt1000_2000_CFilterBVeto 
+if (input=="361344") process = Sherpa_CT10_Wmunu_Pt1000_2000_BFilter 
+if (input=="361345") process = Sherpa_CT10_Wmunu_Pt2000_E_CMS_CVetoBVeto 
+if (input=="361346") process = Sherpa_CT10_Wmunu_Pt2000_E_CMS_CFilterBVeto 
+if (input=="361347") process = Sherpa_CT10_Wmunu_Pt2000_E_CMS_BFilter 
+if (input=="") process =  
+if (input=="361348") process = Sherpa_CT10_Wtaunu_Pt0_70_CVetoBVeto 
+if (input=="361349") process = Sherpa_CT10_Wtaunu_Pt0_70_CFilterBVeto 
+if (input=="361350") process = Sherpa_CT10_Wtaunu_Pt0_70_BFilter 
+if (input=="361351") process = Sherpa_CT10_Wtaunu_Pt70_140_CVetoBVeto 
+if (input=="361352") process = Sherpa_CT10_Wtaunu_Pt70_140_CFilterBVeto 
+if (input=="361353") process = Sherpa_CT10_Wtaunu_Pt70_140_BFilter 
+if (input=="361354") process = Sherpa_CT10_Wtaunu_Pt140_280_CVetoBVeto 
+if (input=="361355") process = Sherpa_CT10_Wtaunu_Pt140_280_CFilterBVeto 
+if (input=="361356") process = Sherpa_CT10_Wtaunu_Pt140_280_BFilter 
+if (input=="361357") process = Sherpa_CT10_Wtaunu_Pt280_500_CVetoBVeto 
+if (input=="361358") process = Sherpa_CT10_Wtaunu_Pt280_500_CFilterBVeto 
+if (input=="361359") process = Sherpa_CT10_Wtaunu_Pt280_500_BFilter 
+if (input=="361360") process = Sherpa_CT10_Wtaunu_Pt500_700_CVetoBVeto 
+if (input=="361361") process = Sherpa_CT10_Wtaunu_Pt500_700_CFilterBVeto 
+if (input=="361362") process = Sherpa_CT10_Wtaunu_Pt500_700_BFilter 
+if (input=="#FIXME") process = -- 
+if (input=="361363") process = Sherpa_CT10_Wtaunu_Pt700_1000_CVetoBVeto 
+if (input=="#FIXME") process = -- 
+if (input=="361364") process = Sherpa_CT10_Wtaunu_Pt700_1000_CFilterBVeto 
+if (input=="#FIXME") process = -- 
+if (input=="361365") process = Sherpa_CT10_Wtaunu_Pt700_1000_BFilter 
+if (input=="361366") process = Sherpa_CT10_Wtaunu_Pt1000_2000_CVetoBVeto 
+if (input=="361367") process = Sherpa_CT10_Wtaunu_Pt1000_2000_CFilterBVeto 
+if (input=="361368") process = Sherpa_CT10_Wtaunu_Pt1000_2000_BFilter 
+if (input=="361369") process = Sherpa_CT10_Wtaunu_Pt2000_E_CMS_CVetoBVeto 
+if (input=="361370") process = Sherpa_CT10_Wtaunu_Pt2000_E_CMS_CFilterBVeto 
+if (input=="361371") process = Sherpa_CT10_Wtaunu_Pt2000_E_CMS_BFilter 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = Sherpa 
+if (input=="#") process = NLO 
+if (input=="#") process = Filter 
+if (input=="") process =  
+if (input=="361372") process = Sherpa_CT10_Zee_Pt0_70_CVetoBVeto 
+if (input=="361373") process = Sherpa_CT10_Zee_Pt0_70_CFilterBVeto 
+if (input=="361374") process = Sherpa_CT10_Zee_Pt0_70_BFilter 
+if (input=="361375") process = Sherpa_CT10_Zee_Pt70_140_CVetoBVeto 
+if (input=="361376") process = Sherpa_CT10_Zee_Pt70_140_CFilterBVeto 
+if (input=="361377") process = Sherpa_CT10_Zee_Pt70_140_BFilter 
+if (input=="361378") process = Sherpa_CT10_Zee_Pt140_280_CVetoBVeto 
+if (input=="361379") process = Sherpa_CT10_Zee_Pt140_280_CFilterBVeto 
+if (input=="361380") process = Sherpa_CT10_Zee_Pt140_280_BFilter 
+if (input=="361381") process = Sherpa_CT10_Zee_Pt280_500_CVetoBVeto 
+if (input=="361382") process = Sherpa_CT10_Zee_Pt280_500_CFilterBVeto 
+if (input=="361383") process = Sherpa_CT10_Zee_Pt280_500_BFilter 
+if (input=="361384") process = Sherpa_CT10_Zee_Pt500_700_CVetoBVeto 
+if (input=="361385") process = Sherpa_CT10_Zee_Pt500_700_CFilterBVeto 
+if (input=="361386") process = Sherpa_CT10_Zee_Pt500_700_BFilter 
+if (input=="361387") process = Sherpa_CT10_Zee_Pt700_1000_CVetoBVeto 
+if (input=="361388") process = Sherpa_CT10_Zee_Pt700_1000_CFilterBVeto 
+if (input=="361389") process = Sherpa_CT10_Zee_Pt700_1000_BFilter 
+if (input=="361390") process = Sherpa_CT10_Zee_Pt1000_2000_CVetoBVeto 
+if (input=="361391") process = Sherpa_CT10_Zee_Pt1000_2000_CFilterBVeto 
+if (input=="361392") process = Sherpa_CT10_Zee_Pt1000_2000_BFilter 
+if (input=="361393") process = Sherpa_CT10_Zee_Pt2000_E_CMS_CVetoBVeto 
+if (input=="#FIXME") process =  
+if (input=="361394") process = Sherpa_CT10_Zee_Pt2000_E_CMS_CFilterBVeto 
+if (input=="#FIXME") process =  
+if (input=="361395") process = Sherpa_CT10_Zee_Pt2000_E_CMS_BFilter 
+if (input=="") process =  
+if (input=="361396") process = Sherpa_CT10_Zmumu_Pt0_70_CVetoBVeto 
+if (input=="361397") process = Sherpa_CT10_Zmumu_Pt0_70_CFilterBVeto 
+if (input=="361398") process = Sherpa_CT10_Zmumu_Pt0_70_BFilter 
+if (input=="361399") process = Sherpa_CT10_Zmumu_Pt70_140_CVetoBVeto 
+if (input=="361400") process = Sherpa_CT10_Zmumu_Pt70_140_CFilterBVeto 
+if (input=="361401") process = Sherpa_CT10_Zmumu_Pt70_140_BFilter 
+if (input=="#FIXME") process = -- 
+if (input=="361402") process = Sherpa_CT10_Zmumu_Pt140_280_CVetoBVeto 
+if (input=="361403") process = Sherpa_CT10_Zmumu_Pt140_280_CFilterBVeto 
+if (input=="361404") process = Sherpa_CT10_Zmumu_Pt140_280_BFilter 
+if (input=="361405") process = Sherpa_CT10_Zmumu_Pt280_500_CVetoBVeto 
+if (input=="361406") process = Sherpa_CT10_Zmumu_Pt280_500_CFilterBVeto 
+if (input=="361407") process = Sherpa_CT10_Zmumu_Pt280_500_BFilter 
+if (input=="361408") process = Sherpa_CT10_Zmumu_Pt500_700_CVetoBVeto 
+if (input=="361409") process = Sherpa_CT10_Zmumu_Pt500_700_CFilterBVeto 
+if (input=="361410") process = Sherpa_CT10_Zmumu_Pt500_700_BFilter 
+if (input=="361411") process = Sherpa_CT10_Zmumu_Pt700_1000_CVetoBVeto 
+if (input=="361412") process = Sherpa_CT10_Zmumu_Pt700_1000_CFilterBVeto 
+if (input=="361413") process = Sherpa_CT10_Zmumu_Pt700_1000_BFilter 
+if (input=="361414") process = Sherpa_CT10_Zmumu_Pt1000_2000_CVetoBVeto 
+if (input=="361415") process = Sherpa_CT10_Zmumu_Pt1000_2000_CFilterBVeto 
+if (input=="361416") process = Sherpa_CT10_Zmumu_Pt1000_2000_BFilter 
+if (input=="361417") process = Sherpa_CT10_Zmumu_Pt2000_E_CMS_CVetoBVeto 
+if (input=="361418") process = Sherpa_CT10_Zmumu_Pt2000_E_CMS_CFilterBVeto 
+if (input=="361419") process = Sherpa_CT10_Zmumu_Pt2000_E_CMS_BFilter 
+if (input=="") process =  
+if (input=="361420") process = Sherpa_CT10_Ztautau_Pt0_70_CVetoBVeto 
+if (input=="361421") process = Sherpa_CT10_Ztautau_Pt0_70_CFilterBVeto 
+if (input=="361422") process = Sherpa_CT10_Ztautau_Pt0_70_BFilter 
+if (input=="361423") process = Sherpa_CT10_Ztautau_Pt70_140_CVetoBVeto 
+if (input=="361424") process = Sherpa_CT10_Ztautau_Pt70_140_CFilterBVeto 
+if (input=="361425") process = Sherpa_CT10_Ztautau_Pt70_140_BFilter 
+if (input=="361426") process = Sherpa_CT10_Ztautau_Pt140_280_CVetoBVeto 
+if (input=="361427") process = Sherpa_CT10_Ztautau_Pt140_280_CFilterBVeto 
+if (input=="361428") process = Sherpa_CT10_Ztautau_Pt140_280_BFilter 
+if (input=="361429") process = Sherpa_CT10_Ztautau_Pt280_500_CVetoBVeto 
+if (input=="361430") process = Sherpa_CT10_Ztautau_Pt280_500_CFilterBVeto 
+if (input=="361431") process = Sherpa_CT10_Ztautau_Pt280_500_BFilter 
+if (input=="361432") process = Sherpa_CT10_Ztautau_Pt500_700_CVetoBVeto 
+if (input=="361433") process = Sherpa_CT10_Ztautau_Pt500_700_CFilterBVeto 
+if (input=="361434") process = Sherpa_CT10_Ztautau_Pt500_700_BFilter 
+if (input=="361435") process = Sherpa_CT10_Ztautau_Pt700_1000_CVetoBVeto 
+if (input=="361436") process = Sherpa_CT10_Ztautau_Pt700_1000_CFilterBVeto 
+if (input=="361437") process = Sherpa_CT10_Ztautau_Pt700_1000_BFilter 
+if (input=="361438") process = Sherpa_CT10_Ztautau_Pt1000_2000_CVetoBVeto 
+if (input=="361439") process = Sherpa_CT10_Ztautau_Pt1000_2000_CFilterBVeto 
+if (input=="361440") process = Sherpa_CT10_Ztautau_Pt1000_2000_BFilter 
+if (input=="361441") process = Sherpa_CT10_Ztautau_Pt2000_E_CMS_CVetoBVeto 
+if (input=="361442") process = Sherpa_CT10_Ztautau_Pt2000_E_CMS_CFilterBVeto 
+if (input=="361443") process = Sherpa_CT10_Ztautau_Pt2000_E_CMS_BFilter 
+if (input=="") process =  
+if (input=="361444") process = Sherpa_CT10_Znunu_Pt0_70_CVetoBVeto 
+if (input=="361445") process = Sherpa_CT10_Znunu_Pt0_70_CFilterBVeto 
+if (input=="361446") process = Sherpa_CT10_Znunu_Pt0_70_BFilter 
+if (input=="361447") process = Sherpa_CT10_Znunu_Pt70_140_CVetoBVeto 
+if (input=="361448") process = Sherpa_CT10_Znunu_Pt70_140_CFilterBVeto 
+if (input=="361449") process = Sherpa_CT10_Znunu_Pt70_140_BFilter 
+if (input=="361450") process = Sherpa_CT10_Znunu_Pt140_280_CVetoBVeto 
+if (input=="361451") process = Sherpa_CT10_Znunu_Pt140_280_CFilterBVeto 
+if (input=="361452") process = Sherpa_CT10_Znunu_Pt140_280_BFilter 
+if (input=="361453") process = Sherpa_CT10_Znunu_Pt280_500_CVetoBVeto 
+if (input=="361454") process = Sherpa_CT10_Znunu_Pt280_500_CFilterBVeto 
+if (input=="361455") process = Sherpa_CT10_Znunu_Pt280_500_BFilter 
+if (input=="361456") process = Sherpa_CT10_Znunu_Pt500_700_CVetoBVeto 
+if (input=="361457") process = Sherpa_CT10_Znunu_Pt500_700_CFilterBVeto 
+if (input=="361458") process = Sherpa_CT10_Znunu_Pt500_700_BFilter 
+if (input=="361459") process = Sherpa_CT10_Znunu_Pt700_1000_CVetoBVeto 
+if (input=="361460") process = Sherpa_CT10_Znunu_Pt700_1000_CFilterBVeto 
+if (input=="361461") process = Sherpa_CT10_Znunu_Pt700_1000_BFilter 
+if (input=="361462") process = Sherpa_CT10_Znunu_Pt1000_2000_CVetoBVeto 
+if (input=="361463") process = Sherpa_CT10_Znunu_Pt1000_2000_CFilterBVeto 
+if (input=="361464") process = Sherpa_CT10_Znunu_Pt1000_2000_BFilter 
+if (input=="361465") process = Sherpa_CT10_Znunu_Pt2000_E_CMS_CVetoBVeto 
+if (input=="361466") process = Sherpa_CT10_Znunu_Pt2000_E_CMS_CFilterBVeto 
+if (input=="361467") process = Sherpa_CT10_Znunu_Pt2000_E_CMS_BFilter 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = Sherpa 
+if (input=="") process =  
+if (input=="361064") process = Sherpa_CT10_lllvSFMinus 
+if (input=="361065") process = Sherpa_CT10_lllvOFMinus 
+if (input=="361066") process = Sherpa_CT10_lllvSFPlus 
+if (input=="361067") process = Sherpa_CT10_lllvOFPlus 
+if (input=="361068") process = Sherpa_CT10_llvv 
+if (input=="361069") process = Sherpa_CT10_llvvjj_ss_EW4 
+if (input=="361070") process = Sherpa_CT10_llvvjj_ss_EW6 
+if (input=="361071") process = Sherpa_CT10_lllvjj_EW6 
+if (input=="361072") process = Sherpa_CT10_lllljj_EW6 
+if (input=="361073") process = Sherpa_CT10_ggllll 
+if (input=="361077") process = Sherpa_CT10_ggllvv 
+if (input=="361081") process = Sherpa_CT10_WplvWmqq 
+if (input=="361082") process = Sherpa_CT10_WpqqWmlv 
+if (input=="361083") process = Sherpa_CT10_WlvZqq 
+if (input=="361084") process = Sherpa_CT10_WqqZll 
+if (input=="361085") process = Sherpa_CT10_WqqZvv 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = Sherpa 
+if (input=="") process =  
+if (input=="361039") process = Sherpa_CT10_SinglePhotonPt35_70_CVetoBVeto 
+if (input=="361040") process = Sherpa_CT10_SinglePhotonPt35_70_CFilterBVeto 
+if (input=="361041") process = Sherpa_CT10_SinglePhotonPt35_70_BFilter 
+if (input=="361042") process = Sherpa_CT10_SinglePhotonPt70_140_CVetoBVeto 
+if (input=="361043") process = Sherpa_CT10_SinglePhotonPt70_140_CFilterBVeto 
+if (input=="361044") process = Sherpa_CT10_SinglePhotonPt70_140_BFilter 
+if (input=="361045") process = Sherpa_CT10_SinglePhotonPt140_280_CVetoBVeto 
+if (input=="361046") process = Sherpa_CT10_SinglePhotonPt140_280_CFilterBVeto 
+if (input=="361047") process = Sherpa_CT10_SinglePhotonPt140_280_BFilter 
+if (input=="361048") process = Sherpa_CT10_SinglePhotonPt280_500_CVetoBVeto 
+if (input=="361049") process = Sherpa_CT10_SinglePhotonPt280_500_CFilterBVeto 
+if (input=="361050") process = Sherpa_CT10_SinglePhotonPt280_500_BFilter 
+if (input=="361051") process = Sherpa_CT10_SinglePhotonPt500_1000_CVetoBVeto 
+if (input=="361052") process = Sherpa_CT10_SinglePhotonPt500_1000_CFilterBVeto 
+if (input=="361053") process = Sherpa_CT10_SinglePhotonPt500_1000_BFilter 
+if (input=="361054") process = Sherpa_CT10_SinglePhotonPt1000_2000_CVetoBVeto 
+if (input=="361055") process = Sherpa_CT10_SinglePhotonPt1000_2000_CFilterBVeto 
+if (input=="361056") process = Sherpa_CT10_SinglePhotonPt1000_2000_BFilter 
+if (input=="361057") process = Sherpa_CT10_SinglePhotonPt2000_4000_CVetoBVeto 
+if (input=="361058") process = Sherpa_CT10_SinglePhotonPt2000_4000_CFilterBVeto 
+if (input=="361059") process = Sherpa_CT10_SinglePhotonPt2000_4000_BFilter 
+if (input=="361060") process = Sherpa_CT10_SinglePhotonPt4000_CVetoBVeto 
+if (input=="361061") process = Sherpa_CT10_SinglePhotonPt4000_CFilterBVeto 
+if (input=="361062") process = Sherpa_CT10_SinglePhotonPt4000_BFilter 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = Pythia8 
+if (input=="") process =  
+if (input=="361000") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ0 
+if (input=="361001") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ1 
+if (input=="361002") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ2 
+if (input=="361003") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ3 
+if (input=="361004") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ4 
+if (input=="361005") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ5 
+if (input=="361006") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ6 
+if (input=="361007") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ7 
+if (input=="361008") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ8 
+if (input=="361009") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ9 
+if (input=="361010") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ10 
+if (input=="361011") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ11 
+if (input=="361012") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ12 
+if (input=="") process =  
+if (input=="361020") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ0W 
+if (input=="361021") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ1W 
+if (input=="361022") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ2W 
+if (input=="361023") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ3W 
+if (input=="361024") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ4W 
+if (input=="361025") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ5W 
+if (input=="361026") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ6W 
+if (input=="361027") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ7W 
+if (input=="361028") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ8W 
+if (input=="361029") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ9W 
+if (input=="361030") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ10W 
+if (input=="361031") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ11W 
+if (input=="361032") process = Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ12W 
+if (input=="") process =  
+if (input=="################################################################################################################") process =  
+if (input=="#") process = PowhegPythia8 
+if (input=="") process =  
+if (input=="426001") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ1 
+if (input=="426002") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ2 
+if (input=="426003") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ3 
+if (input=="426004") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ4 
+if (input=="426005") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ5 
+if (input=="426006") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ6 
+if (input=="426007") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ7 
+if (input=="426008") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ8 
+if (input=="426009") process = PowhegPythia8EvtGen_A14_NNPDF23LO_CT10ME_jetjet_JZ9 
